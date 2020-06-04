@@ -1,1 +1,62 @@
 /* Add your own CSS code below */
+/* Add your own CSS code below */
+
+span {
+    color: red;
+}
+
+@media (min-width: 992px) {
+    .hero__title {
+        font-size: 50px;
+    }
+}
+
+.main-nav__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+@media(min-width:767px) {
+    .site-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .site-header__title {
+        padding-left: 0px;
+    }
+
+    .views {
+        display: flex;
+        flex-direction: row;
+
+
+    }
+
+    .views__title {
+        margin-right: 10px;
+    }
+
+    .view-list__item {
+        margin-right: 20px;
+
+    }
+
+    .views__all {
+        margin-left: auto;
+    }
+}
+
+.main-article {
+    max-width: 50em;
+    line-height: 1.75em;
+}
+
+
+.site-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
